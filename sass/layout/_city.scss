@@ -1,0 +1,29 @@
+.location-reservation {
+    background-color: #eaeaea;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    
+}
+.location-city {
+    border: none;
+    background-color:transparent ;
+    font-size: 16px;
+    margin-left: 5px;
+    padding-left: 10px;
+    height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.location {
+    display: flex;
+    justify-content: center;
+   
+}
+.location .fa-location-dot{
+    color: #353535;
+
+}
