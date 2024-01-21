@@ -32,6 +32,25 @@ li {
   list-style-type: none;
 }
 
+h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 5px;
+}
+
 .logo {
   text-align: center;
   background: var(--White, #FFF);
@@ -106,6 +125,172 @@ li {
 
 .button_explore:not(:hover) {
   transition: all 0.3s ease-in-out 0.3s;
+}
+
+.functioning {
+  background-color: white;
+  padding: 50px 25px 70px 20px;
+}
+
+.container-function {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 73px;
+  color: #7e7e7e;
+  background-color: #f6f6f6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 28px 0 28px 34px;
+  margin-left: -35px;
+}
+
+.text-function {
+  padding-left: 27px;
+  color: #000;
+  font-weight: 500;
+}
+
+.circle {
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+  background: #9356DC;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 24px;
+  color: #fff;
+  margin-right: 25px;
+  z-index: 2;
+}
+
+.card-function {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out 0.1s;
+}
+
+.card-function:hover {
+  transform: scale(1.05);
+}
+
+.menu {
+  background-color: #f6f6f6;
+  margin: 55px 20px 65px;
+}
+
+.menu h2 {
+  margin-bottom: 35px;
+}
+
+.menu-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  display: grid;
+  grid-template: 70% 30%/75% 25%;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 171px;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  grid-area: 1/1/2/3;
+}
+
+.new {
+  grid-area: 1/2/1/3;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.text-new {
+  width: 80px;
+  height: 30px;
+  background-color: #99e2d0;
+  color: #008766;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
+
+.card-discription {
+  padding: 16px 25px 16px 12px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  filter: brightness(1);
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 25px;
+}
+
+.icon .fa-regular {
+  margin-right: -24px;
+}
+
+.icon .fa-solid:hover {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 1;
+  line-height: 1;
+  cursor: pointer;
+  transition: opacity 0.8s ease-in 0.3s;
+}
+
+.icon .fa-solid:not(:hover) {
+  opacity: 0;
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 1;
+  transition: opacity 0.8s ease-in 0.3s;
+}
+
+.footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 25px;
+  gap: 16px;
+  align-items: flex-start;
+  color: #FFF;
+}
+
+h2 {
+  font-family: "Shrikhand";
+}
+
+.container-footer a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
