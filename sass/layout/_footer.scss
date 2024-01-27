@@ -6,13 +6,19 @@
     gap: 16px;
     align-items: flex-start;
     color: #FFF;
+
+    
+    
+
+    &-container a {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &-logo img {
+        color: #FFF;
+    }
 }
 
-.container-footer a {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-}
-.logo-footer img {
-    color: #FFF;
-}
+

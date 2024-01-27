@@ -281,14 +281,12 @@ p {
   align-items: flex-start;
   color: #FFF;
 }
-
-.container-footer a {
+.footer-container a {
   color: #FFF;
   font-size: 16px;
   font-weight: 400;
 }
-
-.logo-footer img {
+.footer-logo img {
   color: #FFF;
 }
 
