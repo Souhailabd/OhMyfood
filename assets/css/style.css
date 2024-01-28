@@ -288,6 +288,13 @@ p {
   align-items: flex-start;
   color: #FFF;
 }
+.footer h3 {
+  font-size: 24px;
+  color: #FFF;
+  font-family: shrikhand;
+  font-weight: 400;
+  word-wrap: break-word;
+}
 .footer-container a {
   color: #FFF;
   font-size: 16px;

@@ -7,8 +7,14 @@
     align-items: flex-start;
     color: #FFF;
 
-    
-    
+    & h3 {
+        font-size: 24px;
+        color: #FFF;
+        font-family: shrikhand;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+
 
     &-container a {
         color: #FFF;
@@ -20,5 +26,3 @@
         color: #FFF;
     }
 }
-
-
