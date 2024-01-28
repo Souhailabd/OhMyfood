@@ -13,7 +13,9 @@
     flex-direction: column;
     gap: 25px;
 }
-
+.card-restaurent {
+    position: relative;
+}
 .card {
     display: grid;
     grid-template: 70% 30% / 75% 25%;
@@ -63,10 +65,13 @@
     filter: brightness(1);
 }
 .icon {
+    position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 25px;
+    bottom: 26px;
+    right: 5px;
 }
 .icon .fa-regular {
     margin-right: -24px;
