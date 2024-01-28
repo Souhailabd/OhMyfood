@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand";
-  font-weight: 400;
-  font-size: 30px;
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 24px;
 }
 @media screen and (min-width: 1025px) {
   h1 {
@@ -95,7 +95,7 @@ p {
   text-align: center;
 }
 
-.explorer h2 {
+.explorer h1 {
   margin: 40px 50px 0;
   line-height: 28px;
   font-weight: 700;
