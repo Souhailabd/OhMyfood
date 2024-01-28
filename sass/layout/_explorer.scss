@@ -1,8 +1,10 @@
 .explorer {
     text-align: center;
+    background: var(--Background, #F6F6F6);
+    
 }
 .explorer h1{
-    margin: 40px 50px 0;
+    padding: 39px;
     line-height: 28px;
     font-weight: 700;
 }
