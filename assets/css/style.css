@@ -131,6 +131,12 @@ p {
   transition: all 0.3s ease-in-out 0.3s;
 }
 
+/*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+  .explorer h1 {
+    font-size: 36px;
+  }
+}
 .functioning {
   background-color: white;
   padding: 50px 25px 70px 20px;
@@ -181,6 +187,24 @@ p {
   color: #9356DC;
 }
 
+/*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+  .functioning-card {
+    width: 100%;
+    margin-top: 28px;
+  }
+  .functioning-main {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+  }
+  .functioning-container {
+    padding: 25px 10px 25px 25px;
+  }
+  .functioning-text {
+    padding-left: 20px;
+  }
+}
 .menu {
   background-color: #f6f6f6;
   padding: 55px 20px 65px;
@@ -286,6 +310,22 @@ p {
   transition: opacity 0.8s ease-in 0.3s;
 }
 
+/*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+  #menu {
+    margin: 55px 140px 65px;
+  }
+  .menu-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 55px;
+    column-gap: 90px;
+  }
+  .card-restaurent {
+    flex: 40%;
+  }
+}
 .footer {
   background-color: #353535;
   display: flex;
@@ -302,6 +342,11 @@ p {
   font-weight: 400;
   word-wrap: break-word;
 }
+.footer-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .footer-container a {
   color: #FFF;
   font-size: 16px;
@@ -311,6 +356,24 @@ p {
   color: #FFF;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 130px;
+  }
+  .footer-icon {
+    display: flex;
+    margin-top: 8px;
+    padding-left: 70px;
+  }
+  .footer-group {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+}
 .container-loader {
   position: fixed;
   display: flex;

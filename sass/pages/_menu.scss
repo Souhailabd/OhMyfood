@@ -98,3 +98,23 @@
     transition: opacity 0.8s ease-in 0.3s;
 
 }
+
+/*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+
+    
+    #menu {
+        margin: 55px 140px 65px;
+    }
+    .menu-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 55px;
+        column-gap: 90px;
+    }
+    
+    .card-restaurent {
+        flex: 40%;
+    }
+}

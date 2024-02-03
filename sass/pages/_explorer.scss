@@ -1,7 +1,7 @@
 .explorer {
     text-align: center;
     background: var(--Background, #F6F6F6);
-    padding: 30px ;
+    padding: 30px;
 
 }
 
@@ -39,4 +39,12 @@
 
 .button_explore:not(:hover) {
     transition: all 0.3s ease-in-out 0.3s;
+}
+
+/*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+
+    .explorer h1 {
+        font-size: 36px;
+    }
 }

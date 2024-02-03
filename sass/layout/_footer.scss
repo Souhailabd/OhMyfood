@@ -15,6 +15,12 @@
         word-wrap: break-word;
     }
 
+    &-group {
+        display: flex;
+        flex-direction: column;
+        
+        gap: 10px;
+    }
 
     &-container a {
         color: #FFF;
@@ -24,5 +30,28 @@
 
     &-logo img {
         color: #FFF;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-right: 130px;
+    }
+
+    .footer-icon {
+        display: flex;
+        margin-top: 8px;
+        padding-left: 70px;
+    }
+
+    .footer-group {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
     }
 }
