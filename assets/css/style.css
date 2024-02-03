@@ -94,10 +94,10 @@ p {
 .explorer {
   text-align: center;
   background: var(--Background, #F6F6F6);
+  padding: 30px;
 }
 
 .explorer h1 {
-  padding: 39px;
   line-height: 28px;
   font-weight: 700;
 }
@@ -118,7 +118,7 @@ p {
   background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
   height: 50px;
   width: 218px;
-  margin: 25px 0 55px;
+  margin: 25px 0 0;
 }
 
 .explorer button:hover {
@@ -321,7 +321,8 @@ p {
   background-color: #eed1e1;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 1000;
+  left: 0;
   animation: loader 2.5s linear forwards;
 }
 
