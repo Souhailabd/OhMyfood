@@ -45,7 +45,6 @@ p {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-top: 5px;
 }
 
 .logo {
@@ -72,6 +71,11 @@ p {
 }
 
 .location-city {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
   border: none;
   background-color: transparent;
   font-size: 16px;
@@ -80,11 +84,6 @@ p {
   height: 30px;
   font-weight: 500;
   cursor: pointer;
-}
-
-.location {
-  display: flex;
-  justify-content: center;
 }
 
 .location .fa-location-dot {
