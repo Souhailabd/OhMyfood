@@ -136,8 +136,26 @@ p {
   background-color: white;
   padding: 50px 25px 70px 20px;
 }
-
-.container-function {
+.functioning .functioning-card {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out 0.1s;
+}
+.functioning .functioning-circle {
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+  background: #9356DC;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 24px;
+  color: #fff;
+  margin-right: 25px;
+  z-index: 2;
+}
+.functioning .functioning-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -150,39 +168,17 @@ p {
   padding: 28px 0 28px 34px;
   margin-left: -35px;
 }
-
-.text-function {
+.functioning .functioning-container .functioning-text {
   padding-left: 27px;
   color: #000;
   font-weight: 500;
 }
 
-.circle {
-  padding: 5px;
-  width: 24px;
-  height: 24px;
-  background: #9356DC;
-  text-align: center;
-  font-size: 15px;
-  border-radius: 24px;
-  color: #fff;
-  margin-right: 25px;
-  z-index: 2;
-}
-
-.card-function {
-  display: flex;
-  align-items: center;
-  margin-top: 25px;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out 0.1s;
-}
-
-.card-function:hover {
+.functioning-card:hover {
   transform: scale(1.05);
 }
 
-.card-function .fa-store {
+.functioning-card .fa-store {
   color: #9356DC;
 }
 
