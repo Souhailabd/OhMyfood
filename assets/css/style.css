@@ -182,6 +182,10 @@ p {
   transform: scale(1.05);
 }
 
+.card-function .fa-store {
+  color: #9356DC;
+}
+
 .menu {
   background-color: #f6f6f6;
   padding: 55px 20px 65px;
