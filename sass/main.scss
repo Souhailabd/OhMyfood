@@ -1,9 +1,10 @@
 @import "./base/reset";
 @import "./base/base";
 @import "./layout/header";
-@import "./layout/city";
+@import "./pages/city";
 @import "./pages/explorer";
 @import "./pages/home";
 @import "./pages/menu";
 @import "./layout/footer";
 @import "./layout/loader";
+@import "./pages/restaurent.scss";
