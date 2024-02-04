@@ -59,6 +59,8 @@
 /*Media Queries desktop*/
 @media screen and (min-width: 1024px) {
 
+
+    
     
     .functioning-card{
         width: 100%;
@@ -68,6 +70,9 @@
         display: flex;
         align-items: center;
         gap: 37px;
+    }
+    .functioning-container {
+        padding: 25px 10px 25px 25px ;
     }
     .functioning-container {
         padding: 25px 10px 25px 25px ;
