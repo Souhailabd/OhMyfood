@@ -114,10 +114,10 @@ p {
   border: none;
   border-radius: 28px;
   box-shadow: 2px 1px 8px -3px #000;
-  background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
   height: 50px;
   width: 218px;
   margin: 25px 0 0;
+  background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
 }
 
 .explorer button:hover {
@@ -290,7 +290,6 @@ p {
 }
 
 .icon .fa-solid:hover {
-  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -298,6 +297,7 @@ p {
   line-height: 1;
   cursor: pointer;
   transition: opacity 0.8s ease-in 0.3s;
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
 }
 
 .icon .fa-solid:not(:hover) {
@@ -462,6 +462,88 @@ img {
   height: 275px;
   object-fit: cover;
   z-index: 0;
+}
+
+.main {
+  background-color: #F7F7F7;
+  padding-bottom: 40px;
+}
+.main-menu {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  margin-top: -50px;
+  padding: 30px 13px 40px;
+  background-color: #F7F7F7;
+  z-index: 1;
+  position: relative;
+}
+.main-section-title {
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-menu-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+i.icon-regular {
+  margin-right: -28px;
+}
+
+i.icon-solid:hover {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 1;
+  line-height: 1;
+  cursor: pointer;
+  transition: opacity 0.8s ease-in 0.3s;
+}
+
+i.icon-solid:not(:hover) {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 1;
+  transition: opacity 0.8s ease-in 0.3s;
+  opacity: 0;
+}
+
+/*cards menu*/
+.restaurant {
+  margin: 40px 13px;
+}
+
+.restaurant-title-section {
+  font-weight: 300;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.restaurant-title-card {
+  font-weight: 500;
+}
+
+.restaurant-card {
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  padding: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
