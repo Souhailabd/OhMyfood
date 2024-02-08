@@ -12,52 +12,48 @@ header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     padding: 23px 25px 18px;
 }
+
 .header-logo img {
     width: 162px;
     height: auto;
 }
-.back{
+
+.back {
     position: absolute;
     width: 20px;
     left: 25px;
-    top:27px;
-    right:0;
-    bottom:0;
+    top: 27px;
+    right: 0;
+    bottom: 0;
 }
+
 .header-logo .fa-arrow-left {
     color: #000;
 }
-img {
- width: 100%;
- height: 275PX;
- object-fit: cover;
+
+.image-restaurent img {
+    width: 100%;
+    height: 275PX;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+
 }
 
 
 .main {
     background-color: #F7F7F7;
     padding-bottom: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-top: -50px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 
-
-    &-menu {
-        border-top-right-radius: 40px;
-        border-top-left-radius: 40px;
-        margin-top: -50px;
-        padding: 30px 13px 40px;
-        background-color: #F7F7F7;
-        z-index: 1;
-        position: relative;
-
-
-    }
 
     &-section-title {
-        margin-top: 20px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 25px;
-        right: 40px;
+
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -104,12 +100,13 @@ i.icon-solid:not(:hover) {
 /*cards menu*/
 
 .restaurant {
-    margin: 40px 13px;
+    margin-top: 40px;
 
     &-title-section {
         font-weight: 300;
         margin-bottom: 12px;
         font-size: 16px;
+        margin-top: 30px;
     }
 
     &-title-card {
@@ -126,12 +123,13 @@ i.icon-solid:not(:hover) {
         justify-content: space-between;
         gap: 55px;
         padding: 18px;
+        
     }
 
 }
 
 
-.button-commande{
+.button-commande {
     display: block;
     justify-content: center;
     align-items: center;
@@ -146,4 +144,3 @@ i.icon-solid:not(:hover) {
     @include linear-gradient.gradient;
 
 }
-

@@ -493,32 +493,25 @@ header {
   color: #000;
 }
 
-img {
+.image-restaurent img {
   width: 100%;
   height: 275PX;
   object-fit: cover;
+  position: relative;
+  z-index: -1;
 }
 
 .main {
   background-color: #F7F7F7;
   padding-bottom: 40px;
-}
-.main-menu {
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   margin-top: -50px;
-  padding: 30px 13px 40px;
-  background-color: #F7F7F7;
-  z-index: 1;
-  position: relative;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .main-section-title {
-  margin-top: 20px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 25px;
-  right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -556,12 +549,13 @@ i.icon-solid:not(:hover) {
 
 /*cards menu*/
 .restaurant {
-  margin: 40px 13px;
+  margin-top: 40px;
 }
 .restaurant-title-section {
   font-weight: 300;
   margin-bottom: 12px;
   font-size: 16px;
+  margin-top: 30px;
 }
 .restaurant-title-card {
   font-weight: 500;
