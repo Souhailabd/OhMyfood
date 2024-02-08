@@ -189,20 +189,16 @@ p {
 
 /*Media Queries desktop*/
 @media screen and (min-width: 1024px) {
+  .functioning {
+    padding: 50px 10% 70px 10%;
+  }
   .functioning-card {
     width: 100%;
-    margin-top: 28px;
   }
   .functioning-main {
     display: flex;
     align-items: center;
     gap: 37px;
-  }
-  .functioning-container {
-    padding: 25px 10px 25px 25px;
-  }
-  .functioning-container {
-    padding: 25px 10px 25px 25px;
   }
   .functioning-text {
     padding-left: 20px;
@@ -210,7 +206,7 @@ p {
 }
 .menu {
   background-color: #f6f6f6;
-  padding: 55px 20px 65px;
+  padding: 55px 10% 65px 10%;
 }
 
 .menu h2 {
