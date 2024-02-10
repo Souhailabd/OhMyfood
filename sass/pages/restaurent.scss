@@ -114,12 +114,12 @@ i.icon-solid:not(:hover) {
     }
 
     &-title-section::after {
-       content: '';
-       display: block;
-       width: 40px;
-       height: 3px;
-       background: #99e2d0;
-       margin-top: 8px;
+        content: '';
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #99e2d0;
+        margin-top: 8px;
     }
 
     &-card {
@@ -131,28 +131,74 @@ i.icon-solid:not(:hover) {
         display: flex;
         justify-content: space-between;
         gap: 55px;
-        padding: 18px;
-        
+        overflow: hidden;
+
+    }
+
+    &-card-one {
+        display: flex;
+        overflow: hidden;
+    }
+
+
+    &-container {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 13px;
+    }
+
+    &-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 12px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #353535;
+    }
+
+    &-check {
+        width: 59px;
+        background-color: #99e2d0;
+        height: 68px;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        align-items: center;
+        font-size: 31px;
+        padding-left: 15px;
+
     }
 
 }
 
-
-.button-commande {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    padding: 13px 40px;
-    border: none;
-    font-weight: 500;
-    color: #ffff;
-    margin: 0 auto;
-    margin-top: 40px;
-    @include linear-gradient.gradient;
-
+.restaurant-card-two {
+    display: flex;
+    gap: 10px;
 }
+
+i.fa-circle-check {
+    background-color: #ffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: #99e2d0;
+}
+
+.restaurant-card .restaurant-card-two {
+    margin-right: -60px;
+}
+
+.restaurant-card:hover .restaurant-card-two {
+    transform: translateX(-60px);
+    transition: transform 0.8s ease-in;
+}
+
+.restaurant-card:not(hover) .restaurant-card-two {
+    transform: translateX(0);
+    transition: transform 0.8s ease-in;
+}
+
 
 .restaurant-entrees {
     animation: transition 1.5s ease-out 0.5s forwards;
@@ -164,7 +210,7 @@ i.icon-solid:not(:hover) {
     opacity: 0;
 }
 
-.restauran-desserts{
+.restauran-desserts {
     animation: transition 1.5s ease-out 2.5s forwards;
     opacity: 0;
 }
@@ -185,4 +231,38 @@ i.icon-solid:not(:hover) {
         opacity: 1;
         margin-left: 13px;
     }
+}
+
+.button-commande {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 13px 40px;
+    border: none;
+    font-weight: 500;
+    color: #ffff;
+    margin: 0 auto;
+    margin-top: 40px;
+    @include linear-gradient.gradient;
+
+}
+
+.button-commande:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out 0.3s;
+}
+
+.button-commande:not(hover) {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0.3s;
+}
+
+
+/*Media Queries desktop*/
+@media screen and (min-width:1024px) {
+    
 }
