@@ -522,10 +522,6 @@ header {
   font-weight: 400;
 }
 
-i.icon-regular {
-  margin-right: -28px;
-}
-
 i.icon-solid:hover {
   background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   background-clip: text;
@@ -693,5 +689,16 @@ i.fa-circle-check {
 }
 
 /*Media Queries desktop*/
+@media screen and (min-width: 1024px) {
+  .main {
+    padding: 40px 20% 0 20%;
+  }
+  .main-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
