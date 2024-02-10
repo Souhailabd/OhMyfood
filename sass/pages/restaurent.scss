@@ -113,6 +113,15 @@ i.icon-solid:not(:hover) {
         font-weight: 500;
     }
 
+    &-title-section::after {
+       content: '';
+       display: block;
+       width: 40px;
+       height: 3px;
+       background: #99e2d0;
+       margin-top: 8px;
+    }
+
     &-card {
         width: 100%;
         background: #ffff;
