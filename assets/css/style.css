@@ -595,4 +595,34 @@ i.icon-solid:not(:hover) {
   background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
 }
 
+.restaurant-entrees {
+  animation: transition 1.5s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+.restaurant-plats {
+  animation: transition 1.5s ease-out 1.5s forwards;
+  opacity: 0;
+}
+
+.restauran-desserts {
+  animation: transition 1.5s ease-out 2.5s forwards;
+  opacity: 0;
+}
+
+/* keyframes*/
+@keyframes transition {
+  0% {
+    opacity: 0;
+    margin-left: -20px;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 13px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
