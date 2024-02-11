@@ -110,6 +110,9 @@ i.icon-solid:not(:hover) {
 
     &-title-card {
         font-weight: 500;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     &-title-section::after {
@@ -167,6 +170,11 @@ i.icon-solid:not(:hover) {
         font-size: 31px;
         padding-left: 15px;
 
+    }
+    &-text-card{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
 }
