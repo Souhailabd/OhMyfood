@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oh My Food</title>
-    <link rel="stylesheet" href="main.css">
+    <title>la palette du gout</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Shrikhand&display=swap"
@@ -15,14 +15,248 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-        
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-<header>
-    <h1>ohmyfood</h1>
-</header>
+    <!-- Header -->
+    <header class="header-logo">
+        <a href="../index.html" class="back">
+            <i class="fa-solid fa-arrow-left fa-lg"></i>
+        </a>
+        <img src="../assets/images/logo/ohmyfood.png" alt="logo oh my food">
+
+    </header>
+
+    <main>
+        <div class=" image-restaurent">
+            <img src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                alt="entree saumon fume salade verte et soja">
+        </div>
+
+        <section class="main">
+
+
+            <div class="main-section-title">
+                <h1 class="main-menu-title"> La palette du goût</h1>
+                <div class="main-icon">
+                    <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
+                    <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>
+                </div>
+            </div>
+
+
+            <!-- CARTES ENTREES -->
+            <section class="restaurant-entrees">
+
+                <h2 class="restaurant-title-section">ENTRÉES</h2>
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Fricassée d'escargots</h3>
+                            <p class="restaurant-text-card">Au piment d'Espelette</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">25€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Foie gras de canard mi-cuit</h3>
+                            <p class="restaurant-text-card">Et ses copeaux de truffe noire</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">35€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Œuf au plat</h3>
+                            <p class="restaurant-text-card">Assaisonné à la truffe sur lit de caviar</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">20€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+
+            <!-- CARTES PLATS -->
+            <section class=" restaurant-plats">
+
+
+                <h2 class="restaurant-title-section">PLATS</h2>
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Filet de bœuf aux herbes</h3>
+                            <p class="restaurant-text-card">Accompagné de sa ribambelle de légumes</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">40€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Parmentier de queue de bœuf</h3>
+                            <p class="restaurant-text-card">À la truffe noire sur sa purée de panais</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">35€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Filet de turbo</h3>
+                            <p class="restaurant-text-card">Aux agrumes</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">44€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+
+                </article>
+
+            </section>
+
+            <!-- CARTES DESSERTS -->
+
+            <section class="restauran-desserts">
+
+                <h2 class="restaurant-title-section">DESSERTS</h2>
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Paris-Brest</h3>
+                            <p class="restaurant-text-card">Revisité</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">18€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Macaron au chocolat d'exception</h3>
+                            <p class="restaurant-text-card">Et glace à la vanille de Madagascar</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">22€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="restaurant-card">
+                    <div class="restaurant-card-one">
+                        <div class=" restaurant-container">
+                            <h3 class="restaurant-title-card">Mousse au chocolat</h3>
+                            <p class="restaurant-text-card">Au piment d'Espelette et à la truffe noire</p>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card-two">
+                        <div class="restaurant-price">23€</div>
+                        <div class="restaurant-check">
+                            <i class="fa-sharp fa-regular fa-circle-check"></i>
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+
+            <button class="button-commande">Commander</button>
+
+        </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+
+        <div class="footer-icon">
+            <h3>ohmyfood</h3>
+        </div>
+
+        <div class="footer-group">
+            <div class="footer-container">
+                <i class="fa-solid fa-utensils"></i>
+                <a href="#" class="footer-container-text">Proposer un restaurent</a>
+            </div>
+
+            <div class="footer-container">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <a href="#" class="footer-container-text">Devenir partenaire</a>
+            </div>
+
+            <div class="footer-container">
+
+                <a href="#">Mentions légales</a>
+            </div>
+
+            <div class="footer-container">
+
+                <a class="footer-container-contact" href="mailto:ohmyfood@contact.com" target="_blank">Contact</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
