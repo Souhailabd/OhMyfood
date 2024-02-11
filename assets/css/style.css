@@ -642,12 +642,12 @@ i.fa-circle-check {
 }
 
 .restaurant-plats {
-  animation: transition 1.5s ease-out 1.5s forwards;
+  animation: transition 1.5s ease-out 1s forwards;
   opacity: 0;
 }
 
 .restauran-desserts {
-  animation: transition 1.5s ease-out 2.5s forwards;
+  animation: transition 1.5s ease-out 1.5s forwards;
   opacity: 0;
 }
 
